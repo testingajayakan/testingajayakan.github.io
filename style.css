@@ -344,7 +344,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 50px;
     padding-top: 0;
     padding-bottom: 60px;
     background-color: #2B2A32;
@@ -355,6 +355,7 @@ footer{
 }
 
 .foot-kiri > a {
+    font-family: rawr;
     text-decoration: none;
     margin-right: 30px;
     margin-top: 20px;
@@ -427,4 +428,80 @@ footer > img:hover {
 
 .facebook:hover{
     background-color: white;
+}
+
+.pisa2{
+    position: relative;
+    width: 2px;
+    height: 52px;
+    background-color: #cccccc;
+}
+
+.line1{
+    display: flex;
+    margin-left: 69px;
+    margin-top: 200px;
+    align-items: center;
+}
+
+.poster1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: start;
+    text-align: center;
+    position: relative;
+}
+
+.poster1 > div{
+    display: flex;
+    margin-top: 110px;
+    margin-left: 69px;
+    width: 270px;
+    height: 400px;
+    transition: box-shadow 0.3s ease-in-out;
+    flex-direction: column;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.poster1 > div:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 40px black;
+    color: white;
+}
+
+.poster1 > div > h1{
+    font-family: 'Cute Font', cursive;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.poster1 > div > h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Gabarito', cursive;
+    width: 50px;
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+button{
+    margin-top: 210px;
+    margin-left: 650px;
+    border: none;
+    width: 130px;
+    height: auto;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    background-color: #cccccc;
+    text-align: center;
+    cursor: pointer;
 }
