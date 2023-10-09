@@ -344,11 +344,10 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 200px;
     padding-top: 0;
     padding-bottom: 60px;
     background-color: #2B2A32;
-
 }
 
 .foot-kiri, .pisah1{
