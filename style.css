@@ -355,9 +355,7 @@ footer{
 }
 
 .foot-kiri > a {
-    font-family: rawr\
-    
-    ;
+    font-family: rawr;
     text-decoration: none;
     margin-right: 30px;
     margin-top: 20px;
@@ -496,6 +494,10 @@ footer > img:hover {
 }
 
 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
     margin-top: 210px;
     margin-left: 650px;
     border: none;
