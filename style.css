@@ -355,7 +355,9 @@ footer{
 }
 
 .foot-kiri > a {
-    font-family: rawr;
+    font-family: rawr\
+    
+    ;
     text-decoration: none;
     margin-right: 30px;
     margin-top: 20px;
@@ -503,5 +505,6 @@ button{
     font-size: 25px;
     background-color: #cccccc;
     text-align: center;
+    border-radius: 8px;
     cursor: pointer;
 }
